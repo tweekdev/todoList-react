@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Roboto, "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    background-color: #4169e1
+}
+
+.card {
+    background: #5171d1;
+    border: none;
+}
+
+.card-body {
+    cursor: pointer;
+    color: white;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.form-control {
+    background: content-box;
+    color: white;
+    border: none;
+    border-radius: 0;
+    border-bottom: 3px solid;
+}
+
+.form-control:active {
+    background: content-box;
+    color: white;
+}
+
+.form-control:focus {
+    background: content-box;
+    color: white;
+}
+
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+
+.form-control:-ms-input-placeholder {
+    color: white;
+}
+
+.form-control::-ms-input-placeholder {
+    color: white;
+}
+
+.form-control::placeholder {
+    color: white;
+}
